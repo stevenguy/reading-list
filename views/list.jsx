@@ -2,6 +2,7 @@ const React = require('react')
 const Book = require('./book')
 const Navigation = require('./navigation')
 const Head = require('./head')
+const Scripts = require('./scripts')
 
 const List = props =>
   <html lang='en'>
@@ -17,7 +18,7 @@ const List = props =>
         </ul>
       </div>
       <script src='/js/list.js' type='application/javascript' />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" />
+      <Scripts />
     </body>
   </html>
 
