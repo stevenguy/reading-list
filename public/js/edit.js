@@ -19,3 +19,5 @@ document.querySelector('#editBook').addEventListener('click', event => {
     })
     .catch(e => console.error(e))
 })
+
+var instance = M.Tabs.init(el, options);
